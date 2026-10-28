@@ -1,0 +1,50 @@
+node_modules/
+.env
+.env.*.local
+src/generated/
+coverage/
+dist/
+*.log
+# Environment
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Vercel
+.vercel/
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+python-ai/.venv/
+python-ai/**/__pycache__/
+python-ai/**/*.pyc
+python-ai/.pytest_cache/
+
+# Python environment
+python-ai/.env
+python-ai/.env.*
+
+# Chroma local database
+python-ai/data/chroma/
+python-ai/data/chroma/**
+
+# Generated/cache files
+*.tmp
+*.cache
+
+# IDE
+.vscode/
+.idea/
